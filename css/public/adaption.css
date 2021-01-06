@@ -1,0 +1,353 @@
+@media screen and (max-width:1600px){
+    .main header,.main .swiper-slide .banner_con{
+        padding: 0 10%;
+    }
+    .main .swiper-container{
+        height: 686px;
+    }
+    .main .swiper-slide .banner_title{
+        margin-top: 184px;
+    }
+    .main .operation{
+        padding: 0 10%;
+        height: 657px;
+    }
+    .main .operation .operation_title,.main .solution h3,.main .digitization h3{
+        font-size: 32px;
+        padding-top: 40px;
+    }
+    .main .operation .operation_sub{
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    .main .operation .operationList{
+        margin-top: 39px;
+    }
+    .main .operation .operationList .operationCont{
+        height: 188px;
+    }
+    .main .operation .operationList .operationCont img{
+        width: 146px;
+        height: 113px;
+    }
+    .main .operation .operationList .operationCont .operaRight h4{
+        font-size: 20px;
+    }
+    .main .operation .operationList .operationCont .operaRight p{
+        font-size: 14px;
+    }
+    .main .solution .solution-container .swiper-slide h4{
+        font-size: 20px;
+    }
+    .main .solution .solution-container .swiper-slide{
+        height: 86.5%;
+    }
+    .main .solution{
+        height: 756px;
+        padding: 0 10%;
+    }
+    .main .solution .solution-container .swiper-slide ul li{
+        margin-bottom: 26px;
+    }
+    .main .solution .solution-container .swiper-slide .solution_more{
+        width: 135px;
+        height: 38px;
+    }
+    .main .solution .solution-container .swiper-slide p:nth-child(3){
+        margin: 18px 32px;
+    }
+    .main .digitization{
+        height: 699px;
+        padding: 0 10%;
+    }
+    .main .digitization .digitizationList .digitizationCont h4{
+        font-size: 18px;
+    }
+    .main footer .footerCon{
+        padding: 0 10%;
+    }
+}
+@media screen and (max-width:1920px){
+    .main .solution .solution-button-next{
+        left: 200px;
+    }
+    .main .solution .solution-button-prev{
+        right: 200px;
+    }
+}
+@media screen and (min-width:1400px) and (max-width:1600px){
+    .main .solution .solution-button-next{
+        left: 80px;
+    }
+    .main .solution .solution-button-prev{
+        right: 80px;
+    }
+}
+@media screen and (min-width:1360px) and (max-width:1400px){
+    .main .solution .solution-button-next{
+        left: 60px;
+    }
+    .main .solution .solution-button-prev{
+        right: 60px;
+    }
+}
+@media screen and (max-width:1280px){
+    .main header nav .logo{
+        width: 120px;
+        height: 30px;
+        margin-right: 40px;
+    }
+    .main header nav a{
+        font-size: 12px;
+    }
+    .main .solution .solution-button-next{
+        left: 40px;
+    }
+    .main .solution .solution-button-prev{
+        right: 40px;
+    }
+    .main .solution .solution-container .swiper-slide{
+        height: 79%;
+    }
+    .solution .swiper-pagination{
+        bottom: 50px;
+    }
+    .main .solution{
+        height: 730px;
+    }
+}
+@media screen and (max-width:1100px){
+    .main .swiper-slide .banner_bottom{
+        justify-content: center;
+    }
+    .main .operation{
+        padding: 0 5%;
+        height: auto;
+    }
+    .main .operation .operation_title, .main .solution h3, .main .digitization h3{
+        font-size: 18px;
+    }
+    .main .operation .operation_sub{
+        font-size: 14px;
+    }
+    .main .operation .operationList .operationCont{
+        width: 100%;
+        padding: 16px 26px 16px 16px;
+    }
+    .main .operation .operationList .operationCont img{
+        width: 126px;
+        height: 93px;
+    }
+    .main .operation .operationList .operationCont .operaRight{
+        margin-left: 21px;
+    }
+    .main .operation .operationList .operationCont .operaRight h4{
+        font-size: 18px;
+    }
+    .main .operation .operationList .operationCont .operaRight p{
+        font-size: 12px;
+    }
+    .main .solution,.main .digitization{
+        padding: 0 5%;
+        height: auto;
+    }
+    .main .solution .solution-container .swiper-slide p:nth-child(3){
+        margin: 15px;
+    }
+    .main .digitization .digitizationList .digitizationCont{
+        width: 48.5%;
+        padding: 15px 27px 26px 15px;
+    }
+    .main .solution .solution-button-next,.main .solution .solution-button-prev{
+        display: none;
+    }
+    .main .solution .solution-container .swiper-slide{
+        height: 82.3%;
+    }
+    .main .solution .solution-container .swiper-slide ul{
+        padding-left: 15px;
+    }
+    .main .solution .solution-container .swiper-slide ul li{
+        width: 100%;
+    }
+    .main .consulting p{
+        font-size: 16px;
+        margin: 0 5%;
+        text-align: left;
+        padding-top: 20px;
+    }
+    .main .consulting .consulting_more, .main .consulting .consulting_service{
+        font-size: 16px;
+    }
+    .main footer .footerCon{
+        flex-wrap: wrap;
+        height: auto;
+        position: relative;
+        padding-bottom: 60px;
+        padding-top: 50px;
+    }
+    .main .footerCon .footerList{
+        width: 100%!important;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+    .main .footerCon .footerList h4{
+        position: relative;
+    }
+    .main .footerCon .footerList h4:before{
+         content: ' ';
+         position: absolute;
+         left: -24px;
+         top: 4px;
+         width: 18px;
+         height: 18px;
+         background-color: rgba(27, 209, 209, 0.4);;
+         border-radius: 50%;
+     }
+    .main .footerCon .footerList .content{
+        display: none;
+    }
+    .main .footerCon .footerList .contentMoblie{
+        display: block;
+    }
+    .main .footerCon .footerList  ul{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .main .footerCon .footerList  ul li{
+        margin-right: 15px;
+    }
+    .main footer .tort{
+        height: auto;
+        padding: 20px 40px;
+        display: block;
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .main footer .tort p:last-child{
+        text-align: center;
+    }
+    .main .footerCon .footerList:first-child{
+        position: absolute;
+        right: 20px;
+        bottom: 40px;
+    }
+    .main .footerCon .footerList .footer_logo{
+        margin:0 auto;
+        position: absolute;
+        bottom: -40px;
+        left: 50%;
+        margin-left: -57px;
+    }
+    .main .footerList .footer_erweima{
+        float: right;
+        width: 73px;
+        height: 73px;
+    }
+    .main .footerCon .footerList p:last-child{
+        clear: both;
+        text-align: right;
+    }
+    .main .swiper-slide .banner_title{
+        font-size: 36px;
+        text-align: center;
+    }
+    .main .swiper-slide .banner_sbm{
+        font-size: 18px;
+        text-align: center;
+    }
+    .main header nav,.main .login{
+        display: none;
+    }
+    .main .consulting .consulting_more, .main .consulting .consulting_service{
+        width: 120px;
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:378px){
+    .main .solution .solution-container .swiper-slide {
+        height: 80.3%;
+    }
+    .main .digitization .digitizationList .digitizationCont{
+        padding: 15px;
+    }
+    .main .digitization .digitizationList .digitizationCont img{
+        width: 26px;
+        height: 26px;
+    }
+    .main .digitization .digitizationList .digitizationCont:nth-child(5) img{
+        margin-bottom: 15px;
+    }
+    .main .digitization .digitizationList .digitizationCont:nth-child(6) img{
+        margin-bottom: 16px;
+    }
+}
+@media screen and (max-width: 320px){
+    .main .swiper-slide .banner_title{
+        font-size: 24px;
+    }
+    .main .swiper-slide .banner_sbm{
+        font-size: 16px;
+    }
+    .main .swiper-slide .banner_more, .main .swiper-slide .banner_service{
+        height: 34px;
+        line-height: 34px;
+    }
+    .main .swiper-slide .banner_more span, .main .swiper-slide .banner_service span{
+        font-size: 14px;
+    }
+    .main .operation .operationList .operationCont{
+        padding: 10px;
+    }
+    .main .operation .operationList .operationCont img{
+        width: 106px;
+        height: 73px;
+    }
+    .main .operation .operationList .operationCont .operaRight{
+        margin-left: 10px;
+    }
+    .main .solution .solution-container{
+        height: 510px;
+    }
+    .main .solution .solution-container .swiper-slide {
+        height: 81.3%;
+    }
+    .main .solution .solution-container .swiper-slide h4{
+        font-size: 16px;
+    }
+    .main .solution .solution-container .swiper-slide p:nth-child(3),.main .solution .solution-container .swiper-slide ul li{
+        font-size: 12px;
+    }
+    .main .solution .solution-container .swiper-slide .solution_more{
+        font-size: 12px;
+        width: 105px;
+        height: 38px;
+    }
+    .main .solution .solution-container .swiper-slide .solution_more img{
+        margin-left: 5px;
+    }
+    .solution .swiper-pagination {
+        bottom: 38px;
+    }
+
+    .main .digitization .digitizationList .digitizationCont h4{
+        font-size: 14px;
+    }
+    .main .digitization .digitizationList .digitizationCont p{
+        font-size: 12px;
+    }
+    .main .consulting p{
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .main .consulting .consulting_more, .main .consulting .consulting_service{
+        height: 34px;
+        line-height: 34px;
+    }
+    .main .footerCon .footerList ul li{
+        font-size: 12px;
+    }
+}
+

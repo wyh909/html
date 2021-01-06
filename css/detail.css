@@ -1,0 +1,205 @@
+.consulting .btn {
+  display: inline-block;
+  width: 144px;
+  height: 44px;
+  text-align: center;
+  line-height: 44px;
+  border-radius: 22px;
+  font-size: 18px;
+  font-weight: 600;
+  vertical-align: middle; }
+  .consulting .btn span {
+    margin-right: 12px; }
+  .consulting .btn i {
+    font-size: 16px;
+    vertical-align: middle; }
+
+.consulting .btn {
+  color: #1BD1D1;
+  background: #fff; }
+
+.itemsA .item, .box {
+  background: #FFFFFF;
+  box-shadow: 0px 2px 16px 0px rgba(0, 182, 176, 0.2); }
+
+.detail .banner-container::after {
+  content: '';
+  padding-top: 100%;
+  width: 100%;
+  display: block;
+  border-radius: 50%;
+  background-color: rgba(67, 242, 244, 0.09);
+  opacity: .39;
+  position: absolute;
+  top: -30%;
+  right: -40%;
+  z-index: 1; }
+
+.w1200 {
+  width: 1200px;
+  margin: 0 auto; }
+
+.moduleA h3 {
+  padding: 60px 0 24px;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 48px;
+  text-align: center; }
+.moduleA-line {
+  width: 174px;
+  display: block;
+  margin: 0 auto; }
+
+.itemsA {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 40px; }
+  .itemsA .item {
+    width: 280px;
+    height: 230px;
+    margin-bottom: 30px;
+    padding: 20px 28px; }
+    .itemsA .item .pic {
+      height: 42px;
+      margin-bottom: 12px; }
+      .itemsA .item .pic img {
+        vertical-align: middle; }
+    .itemsA .item h4 {
+      margin-bottom: 14px;
+      color: rgba(0, 0, 0, 0.65);
+      font-size: 22px;
+      font-weight: 600; }
+    .itemsA .item p {
+      color: rgba(0, 0, 0, 0.65);
+      font-size: 14px;
+      line-height: 24px; }
+
+.wrapper {
+  width: 1200px;
+  margin: 0 auto; }
+
+.page {
+  margin-top: 60px;
+  text-align: center; }
+  .page .prev, .page .next {
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.65);
+    font-size: 14px; }
+  .page .prev {
+    margin-right: 20px; }
+  .page i {
+    display: inline-block;
+    height: 34px;
+    width: 34px;
+    margin: 0 10px;
+    color: rgba(0, 0, 0, 0.65);
+    vertical-align: middle;
+    background-size: 34px;
+    background-repeat: no-repeat; }
+    .page i.icon-prev {
+      background-image: url("../image/common/icon-prev.png"); }
+    .page i.icon-next {
+      background-image: url("../image/common/icon-next.png"); }
+  .page a:hover {
+    color: #1BD1D1; }
+    .page a:hover i {
+      color: #1BD1D1;
+      border-color: #1BD1D1; }
+      .page a:hover i.icon-prev {
+        background-image: url("../image/common/icon-prev-active.png"); }
+      .page a:hover i.icon-next {
+        background-image: url("../image/common/icon-next-active.png"); }
+
+.consulting {
+  padding: 40px 10%;
+  text-align: center;
+  background-color: #1BD1D1; }
+  .consulting p {
+    color: #fff;
+    font-size: 28px; }
+  .consulting .btn {
+    margin: 30px auto 0; }
+
+@media screen and (max-width: 1600px) {
+  .consulting .btn {
+    height: 44px;
+    line-height: 44px; } }
+@media screen and (max-width: 1100px) {
+  .w1200 {
+    width: 100%;
+    padding: 0 10%;
+    margin: 0; }
+
+  .itemsC .item .info {
+    margin-left: 5%; } }
+@media screen and (max-width: 800px) {
+  .w1200 {
+    padding: 0 5%; } }
+@media screen and (max-width: 320px) {
+  .consulting .btn {
+    height: 34px;
+    line-height: 34px;
+    font-size: 14px; }
+    .consulting .btn i {
+      font-size: 14px; } }
+.detail .banner-container {
+  height: 240px;
+  background: #fff; }
+  .detail .banner-container::after {
+    top: -70%;
+    right: -50%; }
+  .detail .banner-container .banner-tit {
+    top: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center; }
+  .detail .banner-container .banner-left {
+    padding-top: 230px; }
+.detail .module-news {
+  margin-top: -26px;
+  padding-bottom: 100px;
+  position: relative;
+  z-index: 6; }
+  .detail .module-news .news-title {
+    margin-bottom: 27px;
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 28px;
+    text-align: center; }
+  .detail .module-news .news-subtitle {
+    margin-bottom: 66px;
+    color: rgba(0, 0, 0, 0.65);
+    font-size: 14px;
+    text-align: center; }
+    .detail .module-news .news-subtitle .icon {
+      margin-right: 8px; }
+    .detail .module-news .news-subtitle .left {
+      margin-right: 10px; }
+  .detail .module-news .news-content {
+    color: rgba(0, 0, 0, 0.65);
+    font-size: 20px;
+    line-height: 32px; }
+    .detail .module-news .news-content p {
+      padding: 20px 0; }
+      .detail .module-news .news-content p.pic {
+        margin: 14px auto;
+        padding: 40px;
+        max-width: 1120px;
+        text-align: center;
+        background: #F5FCFD; }
+        .detail .module-news .news-content p.pic img {
+          width: 100%; }
+
+@media screen and (max-width: 378px) {
+  .detail .banner-container::after {
+    top: -20%;
+    right: -40%; }
+  .detail .banner-container .banner-tit {
+    width: 100%; }
+    .detail .banner-container .banner-tit img {
+      height: 88px;
+      width: auto; } }
+
+/*# sourceMappingURL=detail.css.map */
