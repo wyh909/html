@@ -731,5 +731,14 @@ footer .tort p:last-child {
     font-size: 16px; }
   .moduleB .sub-tabs span {
     font-size: 14px; } }
+.monitor-center .case .detail-con {
+  padding: 30px 18% 70px; }
+  .monitor-center .case .detail-con .item {
+    height: 85px;
+    width: 220px;
+    padding: 0; }
+    .monitor-center .case .detail-con .item .pic {
+      height: 100%;
+      width: 100%; }
 
-/*# sourceMappingURL=product.css.map */
+/*# sourceMappingURL=product-monitor-center.css.map */

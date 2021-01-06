@@ -392,6 +392,12 @@ footer .tort p:last-child {
   flex-wrap: wrap;
   justify-content: space-between; }
 
+.detail-item.case .detail-con .item {
+  width: 270px; }
+
+.detail-item.about .detail-con .item {
+  width: 224px; }
+
 .banner-container {
   height: 730px; }
   .banner-container::after {
@@ -731,5 +737,51 @@ footer .tort p:last-child {
     font-size: 16px; }
   .moduleB .sub-tabs span {
     font-size: 14px; } }
+.banner-container .banner-right {
+  height: 520px;
+  width: 940px;
+  right: -150px;
+  background-image: url("../image/product/it-consult/banner.png"); }
 
-/*# sourceMappingURL=product.css.map */
+.detail-item.team .detail-con {
+  width: 80%;
+  margin: 40px auto 0;
+  padding: 32px 48px;
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 16px;
+  text-align: center;
+  background: #F5FCFD; }
+.detail-item.case .detail-con {
+  padding-top: 30px; }
+  .detail-item.case .detail-con .item {
+    height: 327px;
+    padding: 0 36px; }
+.detail-item.case .pic {
+  height: 84px;
+  width: 154px;
+  margin: 13px auto 22px;
+  text-align: center; }
+  .detail-item.case .pic img {
+    width: 100%; }
+.detail-item.about .detail-con {
+  padding-top: 40px; }
+  .detail-item.about .detail-con .item {
+    display: table;
+    height: 74px;
+    color: #1BD1D1;
+    text-align: center;
+    position: relative; }
+    .detail-item.about .detail-con .item h4 {
+      width: 100%;
+      display: table-cell;
+      vertical-align: middle; }
+    .detail-item.about .detail-con .item .more {
+      height: 10px;
+      width: 21px;
+      position: absolute;
+      right: 6px;
+      bottom: 9px; }
+      .detail-item.about .detail-con .item .more img {
+        width: 100%; }
+
+/*# sourceMappingURL=product-it-consult.css.map */

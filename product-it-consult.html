@@ -16,7 +16,7 @@
  
     <link rel="stylesheet" href="css/public/asset.css">
     <link rel="stylesheet" href="css/public/adaption.css">
-    <link rel="stylesheet" href="css/product.css">
+    <link rel="stylesheet" href="css/product-it-consult.css">
 </head>
 <body>
     <div class="main it-consult">
@@ -183,7 +183,7 @@
             <div class="case-items w1200">
               <div class="itemsC">
                 <div class="item">
-                  <div class="pic"><img src="image/product/icon-31.png" alt="云智慧"></div>
+                  <div class="pic"><img src="image/product/icon-a01.png" alt="云智慧"></div>
                   <div class="info">
                     <h4>规划与构建轻量级运营体系</h4>
                     <p>运营管理体系规划、宣贯与运营流程业务演练。</p>
@@ -194,10 +194,10 @@
                     <h4>评估运营服务业务和技术工具</h4>
                     <p>制度评估、组织架构评估、管理流程评估，技术工具评估，形成评估建议报告。</p>
                   </div>
-                  <div class="pic"><img src="image/product/icon-32.png" alt="云智慧"></div>
+                  <div class="pic"><img src="image/product/icon-a02.png" alt="云智慧"></div>
                 </div>
                 <div class="item">
-                  <div class="pic"><img src="image/product/icon-31.png" alt="云智慧"></div>
+                  <div class="pic"><img src="image/product/icon-a03.png" alt="云智慧"></div>
                   <div class="info">
                     <h4>设计服务目录和服务级别目标</h4>
                     <p>设计可提供的IT服务目录以及服务内容；设计合适的服务级别目标。</p>
@@ -208,7 +208,7 @@
                     <h4>标准化基础数据</h4>
                     <p>梳理和编制运维知识，信息系统、基础设施及应用组件台账与关系。</p>
                   </div>
-                  <div class="pic"><img src="image/product/icon-32.png" alt="云智慧"></div>
+                  <div class="pic"><img src="image/product/icon-a06.png" alt="云智慧"></div>
                 </div>
               </div>
             </div>
@@ -397,37 +397,5 @@
         </footer>
         <!--页尾结束-->
     </div>
-  <script src="js/jquery.min.js"></script>
-  <script src="js/swiper.min.js"></script>
-  <script>
-    $(function() {
-      var tabs = ['业务健康感知', 'IT资源健康感知', '用户体验感知', '问题事件管控']
-      // new Swiper ('.swiper-container', {
-      //   loop: true,
-      //   pagination: {
-      //       el: '.swiper-pagination',
-      //       clickable: true,
-      //       fenderBullet: function(index, className) {
-      //         return '<span><i></i>' + tabs[index] + '</span>'
-      //       }
-      //   },
-      // })
-      $('.main-tabs span').on('click', function() {
-        var idx = $(this).index()
-        $('.main-tabs span').removeClass('active')
-        $(this).addClass('active')
-        $('.main-tabcon .main-item').css('display', 'none')
-        $('.main-tabcon .main-item').eq(idx).css('display', 'block')
-      })
-      $('.sub-tabs span').on('click', function() {
-        var idx = $(this).index()
-        $('.sub-tabs span').removeClass('active')
-        $(this).addClass('active')
-        $('.sub-tabcon .sub-item').css('display', 'none')
-        $('.sub-tabcon .sub-item').eq(idx).css('display', 'block')
-      })
-
-    })
-  </script>
 </body>
 </html>

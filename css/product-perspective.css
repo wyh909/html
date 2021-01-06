@@ -132,7 +132,7 @@ footer .tort p:last-child {
   color: #1BD1D1;
   background: #fff; }
 
-.itemsA .item, .box, .moduleB .main-tabcon, .itemsC .item, .itemsD .item, .itemsD-sub .item, .itemsF .item {
+.itemsA .item, .box, .moduleB .main-tabcon, .itemsC .item, .itemsD .item, .itemsD-sub .item, .itemsF .item, .case .itemA .item .pic {
   background: #FFFFFF;
   box-shadow: 0px 2px 16px 0px rgba(0, 182, 176, 0.2); }
 
@@ -731,5 +731,18 @@ footer .tort p:last-child {
     font-size: 16px; }
   .moduleB .sub-tabs span {
     font-size: 14px; } }
+.case .itemA .item {
+  padding: 24px 18px 22px 36px; }
+  .case .itemA .item .pic img {
+    width: 100%; }
+  .case .itemA .item .item {
+    flex: 1;
+    margin-bottom: 30px; }
+  .case .itemA .item .pic {
+    height: 85px;
+    width: 220px;
+    background: #fff; }
+    .case .itemA .item .pic img {
+      width: 100%; }
 
-/*# sourceMappingURL=product.css.map */
+/*# sourceMappingURL=product-perspective.css.map */

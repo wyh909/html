@@ -392,6 +392,9 @@ footer .tort p:last-child {
   flex-wrap: wrap;
   justify-content: space-between; }
 
+.advantage .itemsB .item {
+  width: 270px; }
+
 .banner-container {
   height: 730px; }
   .banner-container::after {
@@ -731,5 +734,10 @@ footer .tort p:last-child {
     font-size: 16px; }
   .moduleB .sub-tabs span {
     font-size: 14px; } }
+.case .detail-con .item .pic {
+  width: 62px; }
+  .case .detail-con .item .pic img {
+    height: 100%;
+    width: auto; }
 
-/*# sourceMappingURL=product.css.map */
+/*# sourceMappingURL=product-auto.css.map */
